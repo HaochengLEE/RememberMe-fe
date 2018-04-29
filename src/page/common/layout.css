@@ -2,7 +2,7 @@
 * @Author: lihaocheng
 * @Date:   2018-04-29 19:06:37
 * @Last Modified by:   lihaocheng
-* @Last Modified time: 2018-04-29 20:19:25
+* @Last Modified time: 2018-04-30 00:18:59
 */
 /*css reset*/
 *{
@@ -40,6 +40,23 @@ input[type='checkbox']{
 	overflow: hidden;
 
 }
+/* panel */
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.panel .panel-body{
+    padding: 10px;
+    overflow: hidden;
+}
 
 /*全局通用样式*/
 /*隐藏样式*/
@@ -55,7 +72,7 @@ input[type='checkbox']{
 }
 
 .link:hover{
-	color: #e80012
+	color: #0c9;
 }
 .link-text{
     color: #999;
@@ -69,7 +86,7 @@ input[type='checkbox']{
     line-height: 40px;
     vertical-align: middle;
     border: none;
-    background: #c60023;
+    background: #0c9;
     font-size: 17px;
     font-weight: bold;
     color: #fff;

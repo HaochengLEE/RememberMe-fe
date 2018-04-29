@@ -2,7 +2,7 @@
 * @Author: lihaocheng
 * @Date:   2018-04-29 21:12:06
 * @Last Modified by:   lihaocheng
-* @Last Modified time: 2018-04-29 21:18:14
+* @Last Modified time: 2018-04-30 00:00:40
 */
 /* 通用头部导航 */
 .header .logo{
@@ -42,5 +42,5 @@
     background: #eee;
     color: #888;
     font-size: 14px;
-    border-top: 2px solid #c60023;
+    /*border-top: 2px solid #c60023;*/
 }
