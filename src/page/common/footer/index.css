@@ -1,0 +1,54 @@
+/*
+* @Author: lihaocheng
+* @Date:   2018-04-29 20:40:37
+* @Last Modified by:   lihaocheng
+* @Last Modified time: 2018-04-29 21:19:23
+*/
+.footer{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    background: #191e29;
+    height: 210px;
+    
+    
+    
+}
+.w_f{
+	width: 70%;
+	margin: 0 auto;
+	
+}
+.w_r{
+	width: 40%;
+	float: right;
+	
+
+}
+.w_l{
+	margin-top:60px; 
+	width: 40%;
+	float: left;
+	font-size: 20px;
+	color:#0c9;
+
+
+}
+.footer .links{
+	margin-top:100px; 
+    text-align: right;
+    color: #666;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+.footer .links .link{
+    padding: 0 10px;
+}
+.copyright{
+	background: #171918;
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+    height: 30px;
+    
+}

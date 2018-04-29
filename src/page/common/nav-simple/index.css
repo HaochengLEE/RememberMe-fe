@@ -1,0 +1,19 @@
+/*
+* @Author: lihaocheng
+* @Date:   2018-04-29 19:53:25
+* @Last Modified by:   lihaocheng
+* @Last Modified time: 2018-04-29 20:18:38
+*/
+.nav-simple{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ddd;
+    background: #fff;
+
+}
+.nav-simple .logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+    text-decoration: none;
+}
