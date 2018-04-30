@@ -7,12 +7,41 @@
 <body>
 	<%= require ('html-loader!./layout/nav.html') %>
 	<%= require ('html-loader!./layout/header.html') %>
+	<div class="banner-con">
+               <div class="banner-txt">
+               </div>
+    </div>
+	
+	<div class="w">
+            <div class="floor-wrap">
+                <h1 class="floor-title">推荐课程</h1>
+                <ul class="floor-list">
+                    <li class="floor-item">
+                        <a href="./list.html?categoryId=100001">
+                            
+                            <img class="floor-img" src="<%= require('../image/course/1.jpg') %>" alt="基础训练" />
+                        	<span class="floor-text">基础训练</span>
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./list.html?categoryId=100002">
+                            <span class="floor-text">进阶训练</span>
+                            <img class="floor-img" src="<%= require('../image/course/2.jpg') %>" alt="进阶训练" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./list.html?categoryId=100003">
+                            <span class="floor-text">小学语文</span>
+                            <img class="floor-img" src="<%= require('../image/course/3.jpg') %>" alt="小学语文" />
+                        </a>
+                    </li>
 
-	<div class="page-wrap w">
-		<%= require ('html-loader!./layout/nav-side.html') %>
-		<div class="content with-nav"></div>
+                </ul>
+            </div>
+            
 
-	</div>
+    </div>
+
 	<%= require ('html-loader!./layout/footer.html') %>
 
 </body>

@@ -2,12 +2,13 @@
 * @Author: lihaocheng
 * @Date:   2017-05-23 19:52:16
 * @Last Modified by:   lihaocheng
-* @Last Modified time: 2017-05-23 23:40:04
+* @Last Modified time: 2018-04-30 02:03:53
 */
 'use strict';
 require('./index.css');
 require('page/common/nav/index.js');
 require('page/common/header/index.js');
+
 var navSide         = require('page/common/nav-side/index.js');
 var _mm             = require('util/mm.js');
 var _user           = require('service/user-service.js');
