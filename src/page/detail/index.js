@@ -2,7 +2,7 @@
 * @Author: lihaocheng
 * @Date:   2018-04-30 10:38:43
 * @Last Modified by:   lihaocheng
-* @Last Modified time: 2018-04-30 12:31:29
+* @Last Modified time: 2018-04-30 19:27:53
 */
 'use strict';
 
@@ -51,7 +51,7 @@ var page = {
                 $pCount.val(currCount > minCount ? currCount - 1 : minCount);
             }
         });
-        // 加入购物车
+    // 加入购物车
         $(document).on('click', '.cart-add', function(){
             _cart.addToCart({
                 productId   : _this.data.productId,
@@ -79,7 +79,7 @@ var page = {
     //         html = _mm.renderHtml(templateIndex, res);
     //         $pageWrap.html(html);
     //     }, function(errMsg){
-    //         $pageWrap.html('<p class="err-tip">此商品太淘气，找不到了</p>');
+    //         $pageWrap.html('<p class="err-tip">找不到该课程</p>');
     //     });
     // },
     // 数据匹配

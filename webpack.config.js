@@ -31,6 +31,8 @@ var config = {
 		'user-pass-update'  : ['./src/page/user-pass-update/index.js'],
 		'list'              : ['./src/page/list/index.js'],
 		'detail'            : ['./src/page/detail/index.js'],
+		'news'              : ['./src/page/news/index.js'],
+		'life'              : ['./src/page/life/index.js'],
         
 
         
@@ -84,6 +86,9 @@ var config = {
 		new HtmlWebpackPlugin(getHtmlConfig('user-pass-update', '修改密码')),
 		new HtmlWebpackPlugin(getHtmlConfig('list', '课程列表')),
 		new HtmlWebpackPlugin(getHtmlConfig('detail', '课程页面')),
+		new HtmlWebpackPlugin(getHtmlConfig('news', '新闻页面')),
+		new HtmlWebpackPlugin(getHtmlConfig('life', '活动页面')),
+
         
         
         

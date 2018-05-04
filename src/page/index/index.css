@@ -2,11 +2,25 @@
 * @Author: lihaocheng
 * @Date:   2018-04-29 01:00:42
 * @Last Modified by:   lihaocheng
-* @Last Modified time: 2018-04-30 09:45:40
+* @Last Modified time: 2018-04-30 20:34:46
 */
 .w{
 	
 	margin-top:20px; 
+}
+.content-box{
+    padding: 20px;
+    background: #fff;
+    text-indent: 40px;
+}
+
+.content-txt{
+    width: 1000px;
+    margin: 10px auto;
+    
+    /*text-indent: 40px;*/
+    font-size: 20px;
+    line-height: 60px;
 }
 /* keywords-list */
 .keywords-list{
@@ -85,10 +99,11 @@
 .floor-wrap .floor-title{
     height: 50px;
     line-height: 50px;
-    color: #666;
+    color: #000;
     font-weight: normal;
-    font-size: 20px;
-    border-bottom: 1px solid #666;
+    font-size: 22px;
+    margin-top:10px; 
+    text-indent: 50px;
 }
 
 .floor-wrap .floor-list{
