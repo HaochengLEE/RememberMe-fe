@@ -1,34 +1,24 @@
- <div class="page-wrap">
-    <div class="page-title">
+ <div class="page-title">
             <span>{{name}}</span>
-
             </div>
                    <div class="intro-wrap">
                         <div class="p-img-con">
                         <div class="main-img-con">
-                        <img class="main-img" src="https://remeberme.oss-cn-beijing.aliyuncs.com/course/00.jpg" alt="{{name}}"/>
+                        <img class="main-img" id="c_img" src="https://remeberme.oss-cn-beijing.aliyuncs.com/course/00.jpg" alt="{{name}}"/>
                     </div>
-        </div>
+        </div>i
         <div class="p-info-con">
             <!-- <h1 class="p-name">{{name}}</h1>
             <p class="p-subtitle">{{subtitle}}</p> -->
             
             <div class="p-info-item">
                 <!-- <span class="label">名称:</span> -->
-                <span class="info">{{stock}}</span>
+                <span class="info">一身乌黑光亮的羽毛</span>
             </div>
-            <!-- <div class="p-info-item p-count-con">
-                <span class="label">数量:</span>
-                <input class="p-count" value="1" readonly=""/>
-                <span class="p-count-btn plus">+</span>
-                <span class="p-count-btn minus">-</span>
-            </div> -->
-            <!-- <div class="p-info-item">
-                <a class="btn cart-add">加入购物车</a>
-            </div> -->
+            
             <div class="p-info-item">
-                <a class="btn num-add">上一个</a>
-                <a class="btn num-sub">下一个</a>
+                <a class="btn num-add" id="after">上一个</a>
+                <a class="btn num-sub" id="next">下一个</a>
             </div>
             
         </div>
@@ -43,4 +33,3 @@
             {{{detail}}}
             </div>
     </div> 
-</div>
