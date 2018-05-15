@@ -2,7 +2,7 @@
 * @Author: lihaocheng
 * @Date:   2018-04-30 10:38:59
 * @Last Modified by:   lihaocheng
-* @Last Modified time: 2018-04-30 15:17:11
+* @Last Modified time: 2018-05-15 11:04:57
 */
 /* 图片区 */
 .intro-wrap{
@@ -181,4 +181,42 @@
     font-weight: bold;
     text-align: center;
     background: #eee;
+}
+/*课程跳转*/
+.co_box{
+    margin: 0 auto;
+    width: 800px;
+}
+.co_ul{
+    text-align: center;
+}
+.co_ul li{
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+
+}
+.co_box_c{
+    display: inline-block;
+    background: #0c9;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+
+}
+.co_box_t{
+    display: inline-block;
+    background: #0c9;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    
+
 }

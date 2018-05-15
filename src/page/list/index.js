@@ -2,7 +2,7 @@
 * @Author: lihaocheng
 * @Date:   2018-04-30 09:58:18
 * @Last Modified by:   lihaocheng
-* @Last Modified time: 2018-04-30 09:59:55
+* @Last Modified time: 2018-05-12 21:58:52
 */
 'use strict';
 require('./index.css');
@@ -68,33 +68,33 @@ var page = {
         });
     },
     // 加载list数据
-    loadList : function(){
-        var _this       = this,
-            listHtml    = '',
-            listParam   = this.data.listParam,
-            $pListCon   = $('.p-list-con');
-        $pListCon.html('<div class="loading"></div>');
-        // 删除参数中不必要的字段
-        listParam.categoryId 
-            ? (delete listParam.keyword) : (delete listParam.categoryId);
-        // 请求接口
-        _product.getProductList(listParam, function(res){
-            listHtml = _mm.renderHtml(templateIndex, {
-                list :  res.list
-            });
-            $pListCon.html(listHtml);
-            _this.loadPagination({
-                hasPreviousPage : res.hasPreviousPage,
-                prePage         : res.prePage,
-                hasNextPage     : res.hasNextPage,
-                nextPage        : res.nextPage,
-                pageNum         : res.pageNum,
-                pages           : res.pages
-            });
-        }, function(errMsg){
-            _mm.errorTips(errMsg);
-        });
-    },
+    // loadList : function(){
+    //     var _this       = this,
+    //         listHtml    = '',
+    //         listParam   = this.data.listParam,
+    //         $pListCon   = $('.p-list-con');
+    //     $pListCon.html('<div class="loading"></div>');
+    //     // 删除参数中不必要的字段
+    //     listParam.categoryId 
+    //         ? (delete listParam.keyword) : (delete listParam.categoryId);
+    //     // 请求接口
+    //     _product.getProductList(listParam, function(res){
+    //         listHtml = _mm.renderHtml(templateIndex, {
+    //             list :  res.list
+    //         });
+    //         $pListCon.html(listHtml);
+    //         _this.loadPagination({
+    //             hasPreviousPage : res.hasPreviousPage,
+    //             prePage         : res.prePage,
+    //             hasNextPage     : res.hasNextPage,
+    //             nextPage        : res.nextPage,
+    //             pageNum         : res.pageNum,
+    //             pages           : res.pages
+    //         });
+    //     }, function(errMsg){
+    //         _mm.errorTips(errMsg);
+    //     });
+    // },
     // 加载分页信息
     loadPagination : function(pageInfo){
         var _this = this;

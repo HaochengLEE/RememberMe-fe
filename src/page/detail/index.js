@@ -2,7 +2,7 @@
 * @Author: lihaocheng
 * @Date:   2018-04-30 10:38:43
 * @Last Modified by:   lihaocheng
-* @Last Modified time: 2018-05-08 23:37:56
+* @Last Modified time: 2018-05-12 21:59:24
 */
 'use strict';
 
@@ -64,24 +64,24 @@ var page = {
         });
     },
     // 加载商品详情的数据
-    loadDetail : function(){
-        var _this       = this,
-            html        = '',
-            $pageWrap   = $('#page-wrap');
-        // loading
-        $pageWrap.html('<div class="loading"></div>');
-        // 请求detail信息
-        _product.getProductDetail(this.data.productId, function(res){
-            _this.filter(res);
-        // 缓存住detail的数据
-            _this.data.detailInfo = res;
-        // render
-            html = _mm.renderHtml(templateIndex, res);
-            $pageWrap.html(html);
-         }, function(errMsg){
-            $pageWrap.html('<p class="err-tip">找不到该课程</p>');
-        });
-    },
+    // loadDetail : function(){
+    //     var _this       = this,
+    //         html        = '',
+    //         $pageWrap   = $('#page-wrap');
+    //     // loading
+    //     $pageWrap.html('<div class="loading"></div>');
+    //     // 请求detail信息
+    //     _product.getProductDetail(this.data.productId, function(res){
+    //         _this.filter(res);
+    //     // 缓存住detail的数据
+    //         _this.data.detailInfo = res;
+    //     // render
+    //         html = _mm.renderHtml(templateIndex, res);
+    //         $pageWrap.html(html);
+    //      }, function(errMsg){
+    //         $pageWrap.html('<p class="err-tip">找不到该课程</p>');
+    //     });
+    // },
     // 数据匹配
     filter : function(data){
         data.subImages = data.subImages.split(',');

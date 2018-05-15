@@ -15,15 +15,52 @@
                     <span></span>
                     <span class="link-text"><%= htmlWebpackPlugin.options.title%></span>
                 </div>
+
+
             </div>
+
         </div>
+
+
         
 
         <div class="page-wrap w">
             <%= require('html-loader!./layout/nav-side.html')  %>
             <div class="page-wrap" id="page-wrap">
+                <div class="page-title">
+                    <span>{{subtitle}}</span>
+                </div>
+                <div class="intro-wrap">
+                    <div class="main-img-con">
+           
+            
+                     </div>
+                <div class="p-info-con">
+                     <!-- <img class="main-img" src="{{imageHost}}{{mainImage}}" alt="{{name}}"/> -->
+                    <img class="main-img" src="https://remeberme.oss-cn-beijing.aliyuncs.com/course/00.jpg" alt="{{name}}"/>
+            
+                <ul class="co_ul">
+                    <li ><a href="./courselearn.html?productId={{id}}" class="co_box_c">本节学习</a></li>
+                    <li ><a href="./courseexam.html?productId={{id}}" class="co_box_t">本节测试</a></li>
+                </ul>
+
+            
+            
+        </div>
+    </div>
+    <div class="detail-wrap">
+        <div class="detail-tab-con">
+            <ul class="tab-list">
+                <li class="tab-item active">详细描述</li>
+            </ul>
+        </div>
+        <div class="detail-con">
+            {{{detail}}}
             </div>
-</div>i
+    </div> 
+            </div>
+</div>
+
             
         
         </div>

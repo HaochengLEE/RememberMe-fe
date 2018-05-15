@@ -12,7 +12,6 @@
             <p class="p-subtitle">{{subtitle}}</p> -->
             
             <div class="p-info-item">
-                <!-- <span class="label">名称:</span> -->
                 <span class="info">一身乌黑光亮的羽毛</span>
             </div>
             
